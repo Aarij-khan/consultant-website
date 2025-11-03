@@ -5,7 +5,7 @@ function AboutSection() {
     <div className="w-full bg-[#F0F6FC]">
       <div className="max-w-[1480px] mx-auto">
         <div className="w-[90%] mx-auto py-10">
-          <div className="flex justify-between items-center flex-col md:flex-row gap-4">
+          <div className="flex justify-between items-center flex-col md:flex-row gap-10">
             <div className="w-full md:w-[50%] flex flex-col gap-4">
                 <div>
 

@@ -1,8 +1,10 @@
 import AboutSection from "./components/about-section";
+import AboutSection2 from "./components/about-section-2";
 import Banner from "./components/banner";
 import Header from "./components/header";
 import Hero from "./components/hero";
 import InfoBoxes from "./components/info-boxes";
+import Service from "./components/service";
 import Stats from "./components/stats";
 
 
@@ -15,6 +17,8 @@ export default function Home() {
       <InfoBoxes />
       <AboutSection />
       <Banner />
+      <Service />
+      <AboutSection2 />
     </>
   );
 }
