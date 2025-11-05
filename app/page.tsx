@@ -2,6 +2,7 @@ import AboutSection from "./components/about-section";
 import AboutSection2 from "./components/about-section-2";
 import Banner from "./components/banner";
 import ContactForm from "./components/contact-form";
+import Footer from "./components/footer";
 import Header from "./components/header";
 import Hero from "./components/hero";
 import InfoBoxes from "./components/info-boxes";
@@ -23,6 +24,7 @@ export default function Home() {
       <AboutSection2 />
       <Insights />
       <ContactForm />
+      <Footer />
     </div>
   );
 }
