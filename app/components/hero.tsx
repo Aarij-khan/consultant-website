@@ -6,7 +6,7 @@ function Hero() {
       <div className="max-w-[1480px] mx-auto">
         <div className="w-[90%] mx-auto py-10 ">
           <div className="flex items-center justify-center pb-4 flex-col gap-2">
-            <h1 className="text-4xl text-center font-bold pt-10 text-[70px]">
+            <h1 className="text-4xl text-center font-bold pt-10 lg:text-[70px]">
               Lorem ipsum dolor sit amet <br />
               <span className="italic font-light text-blue-600">
                 consectetur adipiscing.

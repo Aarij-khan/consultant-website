@@ -12,7 +12,7 @@ import Stats from "./components/stats";
 
 export default function Home() {
   return (
-    <>
+    <div>
       <Header />
       <Hero />
       <Stats />
@@ -23,6 +23,6 @@ export default function Home() {
       <AboutSection2 />
       <Insights />
       <ContactForm />
-    </>
+    </div>
   );
 }
