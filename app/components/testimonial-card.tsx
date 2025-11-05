@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function TestimonialCard({ image }: { image: string }) {
   return (
-    <div className="h-[320px]  flex flex-col md:flex-row items-center gap-3 p-2 bg-white rounded-lg">
+    <div className="md:h-[320px]  flex flex-col md:flex-row items-center gap-3 p-2 bg-white rounded-lg">
       <Image
         src={image}
         alt="Client 1"

@@ -10,7 +10,7 @@ function Testimonial() {
     <div className="w-full bg-[var(--primary)]">
       <div className="max-w-[1480px] mx-auto">
         <div className="w-[90%] mx-auto py-10">
-          <h1 className="text-white text-center text-[48px]">
+          <h1 className="text-white text-center text-[36px] font-semibold md:text-[48px]">
             Don’t Listen To Us, Listen To Our{" "}
             <span className="italic font-light">
               <br />
@@ -19,7 +19,7 @@ function Testimonial() {
           </h1>
 
           <Swiper
-            className="w-[80%] h-full my-2"
+            className="md:w-[80%] h-full my-2"
             breakpoints={{
               320: {
                 // mobile

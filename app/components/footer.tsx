@@ -15,7 +15,7 @@ function Footer() {
             />
           </div>
 
-          <div className="grid justify-items-center grid-cols-1 md:grid-cols-3 lg:grid-cols-4 border-t-2 border-b-2 border-white py-6">
+          <div className="grid gap-10 md:justify-items-center grid-cols-1 md:grid-cols-3 lg:grid-cols-4 border-t-2 border-b-2 border-white py-6">
             <div>
               <h2 className="font-semibold text-[36px] text-white">
                 Lorem ipsum dolor sit amet consectetur adipiscing elit quisque.

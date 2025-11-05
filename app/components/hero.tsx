@@ -16,7 +16,7 @@ function Hero() {
               Lorem ipsum dolor sit amet consectetur adipiscing elit quisque
               faucibus ex sapien vitae pellentesque sem placerat in id.
             </p>
-            <button className="bg-blue-600 text-white py-2 px-4 rounded">
+            <button className="cursor-pointer bg-blue-600 text-white py-2 px-4 rounded">
               Free Consultation
             </button>
           </div>

@@ -26,7 +26,7 @@ function Stats() {
         <div className="w-[90%] mx-auto py-10 flex-col gap-4 md:flex-row flex items-center justify-between">
           {/* left side */}
           <div className="w-full md:w-[50%] flex flex-col gap-6">
-            <h1 className="text-4xl text-left font-bold pt-10 text-[48px]">
+            <h1 className="text-[36px] text-left font-bold pt-10 md:text-[48px]">
               Lorem ipsum dolor sit amet consectetur.
               <br />
               <span className="italic font-light text-blue-600">

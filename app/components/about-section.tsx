@@ -9,7 +9,7 @@ function AboutSection() {
             <div className="w-full md:w-[50%] flex flex-col gap-4">
                 <div>
 
-              <h1 className="text-[48px] text-[var(--primary)]">
+              <h1 className="text-[36px] md:text-[48px] text-[var(--primary)]">
                 Lorem ipsum dolor sit amet
               </h1>
               <p>
