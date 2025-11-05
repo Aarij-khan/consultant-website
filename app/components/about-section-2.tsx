@@ -27,7 +27,7 @@ function AboutSection2() {
                 </p>
               </div>
               <div className="flex  items-start gap-3 mt-3">
-                <Image src={"/tick.png"} height={50} width={50} />
+                <Image src={"/tick.png"} alt="tick" height={50} width={50} />
                 <div>
                   <h2 className="text-[22px] font-semibold">
                     Lorem ipsum dolor{" "}
@@ -39,7 +39,7 @@ function AboutSection2() {
                 </div>
               </div>
               <div className="flex items-start gap-3">
-                <Image src={"/tick.png"} height={50} width={50} />
+                <Image src={"/tick.png"} alt="tick" height={50} width={50} />
                 <div>
                   <h2 className="text-[22px] font-semibold">
                     Lorem ipsum dolor{" "}

@@ -5,7 +5,7 @@ function Header() {
     <div className="w-full">
       <div className="max-w-[1480px]">
         <div className="h-20 flex items-center w-[90%] mx-auto justify-between">
-            <Image src={'/logo.png'} className="w-[170px] h-[46px]" width={100} height={100} />
+            <Image src={'/logo.png'} alt="logo" className="w-[170px] h-[46px]" width={100} height={100} />
             <div className="items-center gap-22 hidden md:flex">
                 <ul className="flex gap-6 items-center">
                     <li>Home</li>
