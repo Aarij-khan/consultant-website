@@ -9,6 +9,7 @@ import InfoBoxes from "./components/info-boxes";
 import Insights from "./components/insights";
 import Service from "./components/service";
 import Stats from "./components/stats";
+import Testimonial from "./components/testimonial";
 
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
       <Banner />
       <Service />
       <AboutSection2 />
+      <Testimonial />
       <Insights />
       <ContactForm />
       <Footer />
