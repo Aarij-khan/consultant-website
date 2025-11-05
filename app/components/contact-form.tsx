@@ -4,8 +4,8 @@ function ContactForm() {
   return (
     <div className="w-full bg-[#F0F6FC]">
       <div className="max-w-[1480px] mx-auto">
-        <div className="w-[90%] mx-auto py-10 flex justify-between items-center flex-col md:flex-row gap-10">
-          <div className="w-full md:w-[50%] flex flex-col gap-3">
+        <div className="w-[90%] mx-auto py-10 flex justify-between flex-col md:flex-row gap-10">
+          <div className="w-full md:w-[50%] flex flex-col gap-3 pt-10">
             <h1 className="text-[48px] font-bold text-[var(--primary)]">
               Get in touch
             </h1>
