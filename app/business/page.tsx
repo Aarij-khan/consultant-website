@@ -106,6 +106,39 @@ function Page() {
                   </span>
                 </div>
               </div>
+
+              <div className="mt-2 flex gap-2 flex-col md:flex-row items-center justify-between">
+                <Image
+                  src={"/business-3.png"}
+                  alt="tick"
+                  height={350}
+                  width={350}
+                  className="h-[350px] w-full md:w-[48%] rounded-lg"
+                />
+                <Image
+                  src={"/business-1.png"}
+                  alt="tick"
+                  height={350}
+                  width={350}
+                  className="h-[350px] w-full md:w-[48%] rounded-lg"
+                />
+              </div>
+
+              <div className="flex flex-col gap-2 mt-2">
+                <p className="text-[16px]">
+                  Lorem ipsum dolor sit amet consectetur adipiscing elit quisque
+                  faucibus ex sapien vitae pellentesque sem placerat in id
+                  cursus.
+                </p>
+                <p className="text-[16px]">
+                  Lorem ipsum dolor sit amet consectetur adipiscing elit quisque
+                  faucibus ex sapien vitae pellentesque sem placerat in id
+                  cursus mi pretium tellus duis convallis tempus leo eu aenean
+                  sed diam urna tempor pulvinar vivamus fringilla lacus nec
+                  metus bibendum egestas iaculis massa nisl malesuada lacinia.
+                </p>
+              </div>
+              {/* faq section here */}
             </div>
             <div className="w-full md:w-[30%] flex flex-col gap-6">
               <div className="border-[1px] p-3 rounded border-[#EDEDED]">
@@ -119,13 +152,13 @@ function Page() {
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
-                      stroke-width="1.5"
+                      strokeWidth="1.5"
                       stroke="currentColor"
                       className="size-6"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         d="m8.25 4.5 7.5 7.5-7.5 7.5"
                       />
                     </svg>
@@ -143,15 +176,18 @@ function Page() {
                   />
                   <div className="absolute inset-0 p-4 flex flex-col justify-between text-white">
                     <div className="pt-8">
-
-                      <h1 className="text-[36px] font-semibold">Lorem ipsum dolor sit amet.</h1>
+                      <h1 className="text-[36px] font-semibold">
+                        Lorem ipsum dolor sit amet.
+                      </h1>
                       <p className="text-[14px]">
                         Lorem ipsum dolor sit amet consectetur adipiscing elit
-                        quisque faucibus ex sapien vitae pellentesque sem placerat
-                        in id cursus.
+                        quisque faucibus ex sapien vitae pellentesque sem
+                        placerat in id cursus.
                       </p>
                     </div>
-                    <button className="cursor-pointer w-fit rounded-md bg-white p-2 text-[16px] text-black">Get in touch</button>
+                    <button className="cursor-pointer w-fit rounded-md bg-white p-2 text-[16px] text-black">
+                      Get in touch
+                    </button>
                   </div>
                 </div>
               </div>
