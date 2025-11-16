@@ -4,7 +4,7 @@ import Link from "next/link";
 function Header() {
   return (
     <div className="w-full">
-      <div className="max-w-[1480px]">
+      <div className="max-w-[1480px] overflow-x-hidden">
         <div className="h-20 flex items-center w-[90%] mx-auto justify-between">
           <Image
             src={"/logo.png"}

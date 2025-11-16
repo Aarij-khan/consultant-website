@@ -107,20 +107,20 @@ function Page() {
                 </div>
               </div>
 
-              <div className="mt-2 flex gap-2 flex-col md:flex-row items-center justify-between">
+              <div className="mt-4 flex gap-2 flex-col md:flex-row items-center justify-between">
                 <Image
                   src={"/business-3.png"}
                   alt="tick"
                   height={350}
                   width={350}
-                  className="h-[350px] w-full md:w-[48%] rounded-lg"
+                  className="h-[300px] w-full md:w-[48%] rounded-lg"
                 />
                 <Image
                   src={"/business-1.png"}
                   alt="tick"
                   height={350}
                   width={350}
-                  className="h-[350px] w-full md:w-[48%] rounded-lg"
+                  className="h-[300px] w-full md:w-[48%] rounded-lg"
                 />
               </div>
 
