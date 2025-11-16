@@ -1,5 +1,4 @@
 import Image from "next/image";
-import React from "react";
 
 function Page() {
   return (
@@ -24,7 +23,7 @@ function Page() {
       </div>
       <div className="max-w-[1480px] mx-auto">
         <div className="w-[90%] mx-auto py-10 ">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2 md:gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2 md:gap-8 lg:gap-3">
             <div className="flex flex-col items-center justify-center gap-3 h-[250px] border border-[#A8A8A8] rounded-[10px]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -117,6 +116,61 @@ function Page() {
                 <p className="text-[14px] mt-2">abc123@chat.com</p>
                 <p className="text-[14px]">abc123@chat.com</p>
               </div>
+            </div>
+          </div>
+
+          <div className="py-10 flex justify-between flex-col lg:flex-row md:gap-4">
+            <div className="w-full lg:w-[50%] bg-white md:p-6 rounded">
+              <div className="flex flex-col gap-6">
+                <h1 className="text-[36px] font-bold">
+                  Feel free to <span className="text-[var(--primary)]">get in touch</span> or visit our location.
+                </h1>
+                <div className="flex flex-col md:flex-row items-center gap-2">
+                  <div className="flex flex-col w-full md:w-[48%]">
+                    <label>First Name</label>
+                    <input
+                      type="text"
+                      className=" outline-none border-b-2 border-black"
+                    />
+                  </div>
+                  <div className="flex flex-col w-full md:w-[48%]">
+                    <label>Last Name</label>
+                    <input
+                      type="text"
+                      className=" outline-none border-b-2 border-black"
+                    />
+                  </div>
+                </div>
+                <div className="flex flex-col">
+                  <label>Email address</label>
+                  <input
+                    type="text"
+                    className=" outline-none border-b-2 border-black"
+                  />
+                </div>
+                <div className="flex flex-col">
+                  <label>Appointment type</label>
+                  <input
+                    type="text"
+                    className=" outline-none border-b-2 border-black"
+                  />
+                </div>
+                <div className="flex flex-col">
+                  <label>Message</label>
+                  <textarea
+                    cols={30}
+                    rows={6}
+                    className=" outline-none border-b-2 border-black"
+                  ></textarea>
+                </div>
+                <button className="bg-[var(--primary)] text-white py-2 px-4 rounded w-fit">
+                  <span className="text-[14px]">Send Message</span>
+                </button>
+              </div>
+            </div>
+
+            <div className="w-full lg:w-[50%] flex flex-col gap-3 pt-10">
+              <Image src={'/sitemap.png'} alt="sitemap" height={300} width={300} className="object-cover h-full w-full rounded-lg"/>
             </div>
           </div>
         </div>
