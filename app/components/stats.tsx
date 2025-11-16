@@ -3,7 +3,7 @@ function Stats() {
   const stats = [
     {
       value: "10",
-      label: "Reach worldwide",
+      label: "Reach world wide",
       desc: "Lorem ipsum dolor sit amet consectetur adipiscing elit quisque faucibus ex sapien vitae pellentesque sem placerat in id cursus mi pretium tellus duis convallis tempus.",
       highlight: false,
     },
@@ -25,8 +25,8 @@ function Stats() {
       <div className="max-w-[1480px] mx-auto">
         <div className="w-[90%] mx-auto py-10 flex-col gap-4 md:flex-row flex items-center justify-between">
           {/* left side */}
-          <div className="w-full md:w-[50%] flex flex-col gap-6">
-            <h1 className="text-[36px] text-left font-bold pt-10 md:text-[48px]">
+          <div className="w-full md:w-[50%] flex flex-col gap-2 md:gap-6">
+            <h1 className="text-[36px] leading-[50px] md:leading-[55px] text-left font-bold pt-10 md:text-[48px]">
               Lorem ipsum dolor sit amet consectetur.
               <br />
               <span className="italic font-light text-blue-600">
@@ -47,15 +47,15 @@ function Stats() {
             {stats.map((item, index) => (
               <div
                 key={index}
-                className={`grid  grid-cols-[1fr_3fr] items-center border-b last:border-b-0 border-black ${
+                className={`grid grid-cols-[1fr_3fr] items-center border-b last:border-b-0 border-black ${
                   item.highlight
                     ? "bg-blue-600 text-white"
                     : "bg-white text-gray-800"
                 }`}
               >
-                <div className="p-6 relative border-r border-black text-center">
+                <div className="min-w-[90px] p-6 relative border-r border-black text-center">
                   <h2
-                    className={`text-4xl font-bold ${
+                    className={`text-[25px] sm:text-4xl font-bold ${
                       item.highlight ? "text-white" : "text-gray-900"
                     }`}
                   >
@@ -74,7 +74,7 @@ function Stats() {
                     }`}
                   ></div>
                 </div>
-                <div className="p-4 text-sm leading-relaxed">{item.desc}</div>
+                <div className="sm:p-4 p-2 text-xs sm:text-sm leading-relaxed">{item.desc}</div>
               </div>
             ))}
           </div>

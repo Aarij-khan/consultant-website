@@ -12,7 +12,7 @@ import Testimonial from "./components/testimonial";
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Hero />
       <Stats />
       <InfoBoxes />
@@ -23,6 +23,6 @@ export default function Home() {
       <Testimonial />
       <Insights />
       <ContactForm />
-    </div>
+    </>
   );
 }
