@@ -12,7 +12,7 @@ function Header() {
       <div className="max-w-[1480px] overflow-x-hidden">
         <div className="h-20 flex items-center w-[90%] mx-auto justify-between">
           <Image
-            src={"/logo.png"}
+            src={"/Logo.png"}
             alt="logo"
             className="w-[170px] h-[46px]"
             width={100}
