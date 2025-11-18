@@ -25,12 +25,12 @@ function Stats() {
       <div className="max-w-[1480px] mx-auto">
         <div className="w-[90%] mx-auto md:py-10 flex-col gap-4 md:flex-row flex items-center justify-between">
           {/* left side */}
-          <div className="w-full md:w-[50%] flex flex-col gap-2 md:gap-6">
-            <h1 className="text-[36px] leading-[50px] md:leading-[55px] text-left font-bold pt-10 md:text-[48px]">
-              Lorem ipsum dolor sit amet consectetur.
+          <div className="w-full md:w-[50%] flex flex-col text-center md:text-left gap-2 md:gap-6">
+            <h1 className="text-[32px] leading-[42px] md:leading-[55px] font-bold pt-10 md:text-[48px]">
+              Lorem ipsum dolor sit amet consectetur
               <br />
               <span className="italic font-light text-blue-600">
-                faucibus ex sapien vitae pellentesque.
+                faucibus ex sapien vitae pellentesque
               </span>
             </h1>
             <p className="text-[16px]">

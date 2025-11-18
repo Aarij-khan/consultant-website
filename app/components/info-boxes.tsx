@@ -4,7 +4,7 @@ function InfoBoxes() {
     <div className="w-full bg-[#F0F6FC]">
       <div className="max-w-[1480px] mx-auto">
         <div className="w-[90%] mx-auto py-10">
-          <h1 className="sm:text-4xl py-2 text-center font-bold text-[29px]">
+          <h1 className="sm:text-4xl py-2 text-center font-bold text-[32px]">
             Lorem ipsum dolor sit amet
             <br />
             <span className="italic font-light text-blue-600">
