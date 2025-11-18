@@ -17,7 +17,7 @@ function AboutSection2() {
             </div>
             <div className="w-full md:w-[50%] flex flex-col gap-4">
               <div>
-                <h1 className="text-[36px] md:text-[48px] text-[var(--primary)]">
+                <h1 className="text-[36px] md:text-[48px] leading-[45px] md:leading-[55px] text-[var(--primary)]">
                   Lorem ipsum dolor sit amet
                 </h1>
                 <p>

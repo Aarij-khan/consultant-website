@@ -27,22 +27,18 @@ function Testimonial() {
             className="md:w-[80%] h-full my-2"
             breakpoints={{
               320: {
-                // mobile
                 slidesPerView: 1,
                 spaceBetween: 10,
               },
               640: {
-                // small tablets
                 slidesPerView: 2,
                 spaceBetween: 15,
               },
               1024: {
-                // laptops
                 slidesPerView: 2,
                 spaceBetween: 20,
               },
               1280: {
-                // large screens
                 slidesPerView: 2,
                 spaceBetween: 10,
               },

@@ -23,7 +23,7 @@ function Stats() {
   return (
     <div className="w-full">
       <div className="max-w-[1480px] mx-auto">
-        <div className="w-[90%] mx-auto py-10 flex-col gap-4 md:flex-row flex items-center justify-between">
+        <div className="w-[90%] mx-auto md:py-10 flex-col gap-4 md:flex-row flex items-center justify-between">
           {/* left side */}
           <div className="w-full md:w-[50%] flex flex-col gap-2 md:gap-6">
             <h1 className="text-[36px] leading-[50px] md:leading-[55px] text-left font-bold pt-10 md:text-[48px]">

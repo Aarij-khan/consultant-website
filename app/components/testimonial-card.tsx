@@ -6,9 +6,9 @@ function TestimonialCard({ image }: { image: string }) {
       <Image
         src={image}
         alt="Client 1"
-        width={100}
-        height={100}
-        className="h-full w-full md:w-[50%] object-cover rounded-md"
+        width={400}
+        height={400}
+        className="h-[50vh] md:h-full w-full md:w-[50%] object-cover rounded-md"
       />
       <div className="flex flex-col justify-between h-[90%] gap-2 w-full md:w-[50%]">
         <div className="flex gap-1 items-center">
